@@ -1,25 +1,28 @@
 {
-  "appVersion": "1.1.3",
-  "appDisplayVersion": "V1.1.3",
-  "appVersionCode": 5,
-  "version": "1.1.3",
-  "displayVersion": "V1.1.3",
-  "versionCode": 5,
-  "apkPackage": "CineVault.apk",
-  "apkSizeBytes": 14227650,
-  "sha256": "8cb86c16088f79f093cd262845a009be076f8a890d89c1ce3149c25352081fc6",
-  "changelog": [
-    "Fixed Java Integer.intValue() NullPointerException during ICC FTP category indexing so all 28 ICC categories (40,000+ titles including 4K UHD) sync cleanly with zero errors.",
-    "Includes silent background auto-sync, direct in-system APK update downloads (no browser/repo URL shown), VLC-style brightness & 200% sound boost sliders, and full back-button navigation."
-  ],
-  "accessControl": {
-    "forceUpdateEnabled": false,
-    "forceAppUpdate": false,
-    "minAppVersion": "0.0.0",
-    "minVersion": "0.0.0",
-    "lockTitle": "Mandatory Update Required",
-    "lockMessage": "This version of CineVault is no longer supported. Please update to the latest version to continue using CineVault."
-  },
-  "otaGatewayOverrides": {},
-  "updatedAt": "2026-11-21T05:54:00.955Z"
+    "appVersion":  "1.1.4",
+    "appDisplayVersion":  "V1.1.4",
+    "appVersionCode":  6,
+    "version":  "1.1.4",
+    "displayVersion":  "V1.1.4",
+    "versionCode":  6,
+    "apkPackage":  "CineVault.apk",
+    "apkSizeBytes":  14228794,
+    "sha256":  "bb5af5b5d7653b63325d422881a6a1f3e27558b626dbdd3f27116a189f557247",
+    "changelog":  [
+                      "Added VLC-style video size and aspect-ratio fixing system in the mobile player: Best Fit, Fit Screen (Crop), Fill (Stretch), 16:9 Cinema, 4:3 Classic, 21:9 Ultrawide, Fit Horizontal, and Fit Vertical, with one-tap Fit cycling, long-press full picker, 2-finger pinch-to-zoom, and per-device saved preference.",
+                      "Upgraded ICC FTP quick-sync to automatically crawl all 28 ICC categories on devices upgrading from Basic Mode, plus hardened ICC poster URL sanitization and count parsing.",
+                      "Includes silent background auto-sync, direct in-system APK update downloads, VLC-style brightness and 200% sound boost sliders, and full back-button navigation."
+                  ],
+    "accessControl":  {
+                          "forceUpdateEnabled":  false,
+                          "forceAppUpdate":  false,
+                          "minAppVersion":  "0.0.0",
+                          "minVersion":  "0.0.0",
+                          "lockTitle":  "Mandatory Update Required",
+                          "lockMessage":  "This version of CineVault is no longer supported. Please update to the latest version to continue using CineVault."
+                      },
+    "otaGatewayOverrides":  {
+
+                            },
+    "updatedAt":  "2026-11-21T06:03:16.597Z"
 }
