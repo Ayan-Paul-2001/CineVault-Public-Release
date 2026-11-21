@@ -7,7 +7,7 @@
   "versionCode": 4,
   "apkPackage": "CineVault.apk",
   "apkSizeBytes": 14227650,
-  "sha256": "b4ad253b2ed39332b660aea008b7943e1b04477cc95adb225273f8b4c207aad7",
+  "sha256": "d133d2ae0739cc57d3ff0c0fbdd5d7f4ee6feb8b4150979e78634285a4a8ce1d",
   "changelog": [
     "Fixed ICC FTP server status and full 28-category pagination (40,000+ ICC titles including 4K UHD work automatically with green OK status).",
     "Removed ICC FTP session setup section from both mobile and desktop apps.",
@@ -23,5 +23,5 @@
     "lockMessage": "This version of CineVault is no longer supported. Please update to the latest version to continue using CineVault."
   },
   "otaGatewayOverrides": {},
-  "updatedAt": "2026-11-21T05:43:26.853Z"
+  "updatedAt": "2026-11-21T05:46:44.150Z"
 }
