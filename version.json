@@ -1,18 +1,16 @@
 {
-  "appVersion": "1.1.2",
-  "appDisplayVersion": "V1.1.2",
-  "appVersionCode": 4,
-  "version": "1.1.2",
-  "displayVersion": "V1.1.2",
-  "versionCode": 4,
+  "appVersion": "1.1.3",
+  "appDisplayVersion": "V1.1.3",
+  "appVersionCode": 5,
+  "version": "1.1.3",
+  "displayVersion": "V1.1.3",
+  "versionCode": 5,
   "apkPackage": "CineVault.apk",
   "apkSizeBytes": 14227650,
-  "sha256": "d133d2ae0739cc57d3ff0c0fbdd5d7f4ee6feb8b4150979e78634285a4a8ce1d",
+  "sha256": "8cb86c16088f79f093cd262845a009be076f8a890d89c1ce3149c25352081fc6",
   "changelog": [
-    "Fixed ICC FTP server status and full 28-category pagination (40,000+ ICC titles including 4K UHD work automatically with green OK status).",
-    "Removed ICC FTP session setup section from both mobile and desktop apps.",
-    "Added VLC-style player touch sliders: left side swipe adjusts screen brightness, right side swipe adjusts volume with 0-200% audio boost.",
-    "Wired full Android back-button navigation across tabs, search, filters, detail, and player with double-back Quit/Cancel confirmation on Home."
+    "Fixed Java Integer.intValue() NullPointerException during ICC FTP category indexing so all 28 ICC categories (40,000+ titles including 4K UHD) sync cleanly with zero errors.",
+    "Includes silent background auto-sync, direct in-system APK update downloads (no browser/repo URL shown), VLC-style brightness & 200% sound boost sliders, and full back-button navigation."
   ],
   "accessControl": {
     "forceUpdateEnabled": false,
@@ -23,5 +21,5 @@
     "lockMessage": "This version of CineVault is no longer supported. Please update to the latest version to continue using CineVault."
   },
   "otaGatewayOverrides": {},
-  "updatedAt": "2026-11-21T05:46:44.150Z"
+  "updatedAt": "2026-11-21T05:54:00.955Z"
 }
