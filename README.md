@@ -12,9 +12,15 @@
 
 ## Release Files
 
-- `CineVault.apk` — Signed standalone Android release APK (`applicationId: com.cinevault.app`).
+- `CineVault.apk` — Signed standalone universal Android release APK for **Android Phones, Tablets, and Android TV / Google TV** (`applicationId: com.cinevault.app`).
 - `version.json` — Version-control update manifest (`appVersion`, `appDisplayVersion`, `appVersionCode`, `apkPackage`, `sha256`, `changelog`, `accessControl`).
 - `SHA256SUMS.txt` — SHA-256 integrity checksum for verifying `CineVault.apk`.
+
+## Supported Devices
+
+- **Android Phones (Android 7.0+ / API 24–35):** Edge-to-edge mobile shell, 5-tab bottom navigation, VLC-style touch sliders (left brightness, right volume + 200% sound boost), 2-finger pinch-to-zoom, and 8 video aspect/size modes.
+- **Android Tablets:** Responsive widescreen top navigation bar, larger poster grids (4–6 columns), taller Cinema Hero spotlight, and centered detail & server views.
+- **Android TV / Google TV:** Native TV Home Screen launcher (`LEANBACK_LAUNCHER` + official `640x360` TV banner), glowing D-Pad focus highlights and card zoom animations, top navigation bar, and full TV remote playback controls (Play/Pause, D-Pad seek, 15s timeline stepping, Aspect/Zoom cycling, Captions, Menu, and Search).
 
 ## Auto-Update System
 

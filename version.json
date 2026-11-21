@@ -1,17 +1,17 @@
 {
-    "appVersion":  "1.1.4",
-    "appDisplayVersion":  "V1.1.4",
-    "appVersionCode":  6,
-    "version":  "1.1.4",
-    "displayVersion":  "V1.1.4",
-    "versionCode":  6,
+    "appVersion":  "1.2.0",
+    "appDisplayVersion":  "V1.2.0",
+    "appVersionCode":  7,
+    "version":  "1.2.0",
+    "displayVersion":  "V1.2.0",
+    "versionCode":  7,
     "apkPackage":  "CineVault.apk",
-    "apkSizeBytes":  14228794,
-    "sha256":  "bb5af5b5d7653b63325d422881a6a1f3e27558b626dbdd3f27116a189f557247",
+    "apkSizeBytes":  14258902,
+    "sha256":  "3512e5285243087d2bbbd7cd043dbc5b603418bd57e23dd3610928f6fce9a3e9",
     "changelog":  [
-                      "Added VLC-style video size and aspect-ratio fixing system in the mobile player: Best Fit, Fit Screen (Crop), Fill (Stretch), 16:9 Cinema, 4:3 Classic, 21:9 Ultrawide, Fit Horizontal, and Fit Vertical, with one-tap Fit cycling, long-press full picker, 2-finger pinch-to-zoom, and per-device saved preference.",
-                      "Upgraded ICC FTP quick-sync to automatically crawl all 28 ICC categories on devices upgrading from Basic Mode, plus hardened ICC poster URL sanitization and count parsing.",
-                      "Includes silent background auto-sync, direct in-system APK update downloads, VLC-style brightness and 200% sound boost sliders, and full back-button navigation."
+                      "Universal Android Phone, Tablet, and Android TV / Google TV support in one APK: native LEANBACK_LAUNCHER, 640x360 TV home screen banner, glowing D-Pad focus highlights and card zoom, widescreen top navigation bar for TV and tablets, and complete TV remote playback controls.",
+                      "Fixed video playback fetching errors and spontaneous timestamp jumps (e.g. 2 min to 1 hour) on tablets, phones, and TVs: lazy LoudnessEnhancer (prevents AudioTrack clock drift), Media3 decoder fallback, broken external-subtitle auto-recovery, BDIX network auto-reconnect + mirror failover, anti-time-jump watchdog, SeekBar setMax fix, and safe # and % URL encoding.",
+                      "Includes VLC-style 8-mode video size / aspect-ratio fixing with 2-finger pinch-to-zoom, left brightness and right 200% sound boost sliders, silent background auto-sync, and direct in-system APK updates."
                   ],
     "accessControl":  {
                           "forceUpdateEnabled":  false,
@@ -24,5 +24,5 @@
     "otaGatewayOverrides":  {
 
                             },
-    "updatedAt":  "2026-11-21T06:03:16.597Z"
+    "updatedAt":  "2026-11-21T06:27:51.932Z"
 }
