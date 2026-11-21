@@ -1,0 +1,27 @@
+{
+  "appVersion": "1.0.2",
+  "appDisplayVersion": "V1.0.2",
+  "appVersionCode": 3,
+  "version": "1.0.2",
+  "displayVersion": "V1.0.2",
+  "versionCode": 3,
+  "apkPackage": "CineVault.apk",
+  "apkSizeBytes": 14225378,
+  "sha256": "0821c789d7a93efc3f0c8d44d02c9c53a5f142d58759fa3a6acfd662e8174eba",
+  "changelog": [
+    "Embedded public release update endpoint internally (hidden from frontend UI).",
+    "Added 60-minute background auto-update checker with 3-second new update popup and manual Check for Updates button.",
+    "Guaranteed per-device private watch history and watchlist isolation across unlimited concurrent devices.",
+    "Includes Android 15 edge-to-edge top bar fix, dedicated Servers menu tab, and all 4 BDIX server fixes."
+  ],
+  "accessControl": {
+    "forceUpdateEnabled": false,
+    "forceAppUpdate": false,
+    "minAppVersion": "0.0.0",
+    "minVersion": "0.0.0",
+    "lockTitle": "Mandatory Update Required",
+    "lockMessage": "This version of CineVault is no longer supported. Please update to the latest version to continue using CineVault."
+  },
+  "otaGatewayOverrides": {},
+  "updatedAt": "2026-11-21T04:35:33.168Z"
+}
