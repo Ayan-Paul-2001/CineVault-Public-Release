@@ -1,18 +1,18 @@
 {
-  "appVersion": "1.0.2",
-  "appDisplayVersion": "V1.0.2",
-  "appVersionCode": 3,
-  "version": "1.0.2",
-  "displayVersion": "V1.0.2",
-  "versionCode": 3,
+  "appVersion": "1.1.2",
+  "appDisplayVersion": "V1.1.2",
+  "appVersionCode": 4,
+  "version": "1.1.2",
+  "displayVersion": "V1.1.2",
+  "versionCode": 4,
   "apkPackage": "CineVault.apk",
-  "apkSizeBytes": 14225378,
-  "sha256": "0821c789d7a93efc3f0c8d44d02c9c53a5f142d58759fa3a6acfd662e8174eba",
+  "apkSizeBytes": 14227650,
+  "sha256": "266d91b2363934a9b701ad6a9e26d9a8d2ae9d4c7c92b69835f16da47e35dc8b",
   "changelog": [
-    "Embedded public release update endpoint internally (hidden from frontend UI).",
-    "Added 60-minute background auto-update checker with 3-second new update popup and manual Check for Updates button.",
-    "Guaranteed per-device private watch history and watchlist isolation across unlimited concurrent devices.",
-    "Includes Android 15 edge-to-edge top bar fix, dedicated Servers menu tab, and all 4 BDIX server fixes."
+    "Fixed ICC FTP server status and full 28-category pagination (40,000+ ICC titles including 4K UHD work automatically with green OK status).",
+    "Removed ICC FTP session setup section from both mobile and desktop apps.",
+    "Added VLC-style player touch sliders: left side swipe adjusts screen brightness, right side swipe adjusts volume with 0-200% audio boost.",
+    "Wired full Android back-button navigation across tabs, search, filters, detail, and player with double-back Quit/Cancel confirmation on Home."
   ],
   "accessControl": {
     "forceUpdateEnabled": false,
@@ -23,5 +23,5 @@
     "lockMessage": "This version of CineVault is no longer supported. Please update to the latest version to continue using CineVault."
   },
   "otaGatewayOverrides": {},
-  "updatedAt": "2026-11-21T04:35:33.168Z"
+  "updatedAt": "2026-11-21T05:30:13.734Z"
 }
