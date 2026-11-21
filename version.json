@@ -1,17 +1,17 @@
 {
-    "appVersion":  "1.2.0",
-    "appDisplayVersion":  "V1.2.0",
-    "appVersionCode":  7,
-    "version":  "1.2.0",
-    "displayVersion":  "V1.2.0",
-    "versionCode":  7,
+    "appVersion":  "1.2.1",
+    "appDisplayVersion":  "V1.2.1",
+    "appVersionCode":  8,
+    "version":  "1.2.1",
+    "displayVersion":  "V1.2.1",
+    "versionCode":  8,
     "apkPackage":  "CineVault.apk",
-    "apkSizeBytes":  14258902,
-    "sha256":  "3512e5285243087d2bbbd7cd043dbc5b603418bd57e23dd3610928f6fce9a3e9",
+    "apkSizeBytes":  14275282,
+    "sha256":  "da955d4e6985b41942ac615aef7c14e4aa84967d447c8f9f5674d85962999590",
     "changelog":  [
-                      "Universal Android Phone, Tablet, and Android TV / Google TV support in one APK: native LEANBACK_LAUNCHER, 640x360 TV home screen banner, glowing D-Pad focus highlights and card zoom, widescreen top navigation bar for TV and tablets, and complete TV remote playback controls.",
-                      "Fixed video playback fetching errors and spontaneous timestamp jumps (e.g. 2 min to 1 hour) on tablets, phones, and TVs: lazy LoudnessEnhancer (prevents AudioTrack clock drift), Media3 decoder fallback, broken external-subtitle auto-recovery, BDIX network auto-reconnect + mirror failover, anti-time-jump watchdog, SeekBar setMax fix, and safe # and % URL encoding.",
-                      "Includes VLC-style 8-mode video size / aspect-ratio fixing with 2-finger pinch-to-zoom, left brightness and right 200% sound boost sliders, silent background auto-sync, and direct in-system APK updates."
+                      "Fixed ERROR_CODE_DECODING_FAILED on Android tablets, phones, and TVs for Dolby E-AC3 / AC3 / DTS / Dual Audio movies: switched Media3 to EXTENSION_RENDERER_MODE_PREFER (always using bundled Jellyfin FFmpeg Audio Decoder first instead of broken OEM tablet codecs) and added automatic mid-stream Software Video Decoder fallback (c2.android / OMX.google) that resumes at the exact second.",
+                      "Added proper Media AudioAttributes + headphone unplug auto-pause, anti-time-jump clock watchdog, lazy LoudnessEnhancer, broken external-subtitle auto-recovery, and safe # and % URL encoding.",
+                      "Universal APK supporting Android Phones, Tablets, and Android TV / Google TV (LEANBACK_LAUNCHER, 640x360 TV banner, glowing D-Pad focus, top navigation bar, TV remote playback controls, and VLC-style 8-mode video size / aspect-ratio fixing)."
                   ],
     "accessControl":  {
                           "forceUpdateEnabled":  false,
@@ -24,5 +24,5 @@
     "otaGatewayOverrides":  {
 
                             },
-    "updatedAt":  "2026-11-21T06:27:51.932Z"
+    "updatedAt":  "2026-11-21T06:36:30.371Z"
 }
