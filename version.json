@@ -1,17 +1,17 @@
 {
-  "appVersion": "1.3.0",
-  "appDisplayVersion": "V1.3.0",
-  "appVersionCode": 9,
-  "version": "1.3.0",
-  "displayVersion": "V1.3.0",
-  "versionCode": 9,
+  "appVersion": "1.3.1",
+  "appDisplayVersion": "V1.3.1",
+  "appVersionCode": 10,
+  "version": "1.3.1",
+  "displayVersion": "V1.3.1",
+  "versionCode": 10,
   "apkPackage": "CineVault.apk",
-  "apkSizeBytes": 14276306,
-  "sha256": "388e443828a5d2126921a06f54e84681a8970036451a057d24cd6ed294987454",
+  "apkSizeBytes": 14292690,
+  "sha256": "b06f8134aa14b9ad614a5c3c647fc0fae8658d6183673f9f1a514100e1bec154",
   "changelog": [
-    "Added YouTube-style double-tap seeking in the Android video player: double-tap the right side to jump forward +10s, double-tap the left side to rewind -10s (stacking smoothly on rapid taps with visual HUD pills), and double-tap the center to Play/Pause.",
-    "Added full YouTube-style playback speed controls (0.25x, 0.5x, 0.75x, 1x, 1.25x, 1.5x, 1.75x, 2x) right in the player bar (tap to pick speed, long-press to reset to 1x).",
-    "Added a full in-app Download Manager for movies and TV episodes with an in-app Download Options dialog (Wi-Fi only toggle + optional external subtitle download), a dedicated Current Downloads section inside My List with live progress bars, cancel/retry controls, and direct offline playback inside CineVault without opening external browsers."
+    "Major Search & Loading Speed Boost: fixed SQLite FTS5 join order (CROSS JOIN), added covering media_categories & partial composite indexes, instant 1-character title prefix search, exact-title relevance ranking, indexed library stats, 5-minute Home feed caching, race-free search cancellation, and 4s poster load timeout.",
+    "Search-Scoped Dynamic Filtering: when searching, the Filters panel (Sections, Year, Quality, Audio, Language, and Server) now automatically scopes to only matching results with live per-filter counts instead of showing all global categories.",
+    "Includes V1.3.0 features: YouTube-style left/right double-tap seeking (+10s/-10s), playback speed selector (0.25x-2x), in-app Download Manager with download icon button and Current Downloads progress/offline playback inside My List, and streamlined quality cards."
   ],
   "accessControl": {
     "forceUpdateEnabled": false,
@@ -22,5 +22,5 @@
     "lockMessage": "This version of CineVault is no longer supported. Please update to the latest version to continue using CineVault."
   },
   "otaGatewayOverrides": {},
-  "updatedAt": "2026-11-24T17:33:32.048Z"
+  "updatedAt": "2026-11-25T08:47:21.494Z"
 }
